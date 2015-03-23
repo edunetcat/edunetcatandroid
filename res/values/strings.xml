@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Edunet</string>
+    <string name="title_section1">Edunet</string>
+    <string name="title_section2">Tràmits</string>
+    <string name="title_section3">Missatges</string>
+    <string name="title_section4">Calendari</string>
+    <string name="title_section5">Avaluació</string>
+    <string name="title_section6">Expedient</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Opcions</string>
+    <string name="action_settings">Perfil</string>
+    <string name="inici">Inici</string>
+    <string name="tramits">Tràmits</string>
+    <string name="missatges">Missatges</string>
+    <string name="calendari">Calendari</string>
+    <string name="avaluacio">Avaluació</string>
+    <string name="expedient">Expedient</string>
+
+</resources>
