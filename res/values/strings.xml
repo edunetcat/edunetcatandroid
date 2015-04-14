@@ -2,12 +2,12 @@
 <resources>
 
     <string name="app_name">Edunet</string>
-    <string name="title_section1">Edunet</string>
-    <string name="title_section2">Tràmits</string>
-    <string name="title_section3">Missatges</string>
-    <string name="title_section4">Calendari</string>
-    <string name="title_section5">Avaluació</string>
-    <string name="title_section6">Expedient</string>
+    <string name="title_section1">Edunet - Inici</string>
+    <string name="title_section2">Edunet - Tràmits</string>
+    <string name="title_section3">Edunet - Missatges</string>
+    <string name="title_section4">Edunet - Calendari</string>
+    <string name="title_section5">Edunet - Avaluació</string>
+    <string name="title_section6">Edunet - Expedient</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Opcions</string>

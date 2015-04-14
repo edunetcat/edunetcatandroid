@@ -38,12 +38,14 @@ public class MainActivity extends ActionBarActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		//Crea el menu NavigationDrawer
 		mNavigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager()
 				.findFragmentById(R.id.navigation_drawer);
+		
+		//titol de l'activitat, que anirà canviant segons la secció triada
 		mTitle = getTitle();
 
-		// Set up the drawer.
+		// Instala el menu NavigationDrawer
 		mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
 				(DrawerLayout) findViewById(R.id.drawer_layout));
 		
@@ -51,7 +53,7 @@ public class MainActivity extends ActionBarActivity implements
 
 	@Override
 	public void onNavigationDrawerItemSelected(int position) {
-		// update the main content by replacing fragments
+		// Actualitza el contingut segons la opció triada
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		fragmentManager
 				.beginTransaction()
@@ -139,12 +141,37 @@ public class MainActivity extends ActionBarActivity implements
 		public PlaceholderFragment() {
 		}
 
+		//Aquest métode és el que mostra, segons l'opció triada, la vista XML del contingut
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container,
-					false);
-			return rootView;
+			//s'extrau l'opció (recordem que la opció primera és 1 i no 0) dels arguments del fragment
+			int opcio = getArguments().getInt(ARG_SECTION_NUMBER);
+			View rootView;
+			switch(getArguments().getInt(ARG_SECTION_NUMBER)) {
+            case 1:
+                rootView = inflater.inflate(R.layout.fragment_main, container, false);
+                break;
+            case 2:
+                rootView = inflater.inflate(R.layout.fragment_tramits, container, false);
+                break;
+            case 3:
+                rootView = inflater.inflate(R.layout.fragment_missatges, container, false);
+                break;
+            case 4:
+                rootView = inflater.inflate(R.layout.fragment_calendari, container, false);
+                break;
+            case 5:
+                rootView = inflater.inflate(R.layout.fragment_avaluacio, container, false);
+                break;
+            case 6:
+                rootView = inflater.inflate(R.layout.fragment_expedient, container, false);
+                break;
+            default:
+                rootView = inflater.inflate(R.layout.fragment_main, container, false);
+        }
+        return rootView;
+			
 		}
 
 		@Override

@@ -14,25 +14,26 @@
         android:orientation="vertical" >
     
     <TextView
-        android:id="@+id/resumActivitat"
+        android:id="@+id/titolMissatges"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/view1"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="14dp"
-        android:text="Panell alumnes"
+        android:text="Bustia de missatges"
         android:textColor="@android:color/darker_gray"
         android:textSize="20sp" />
-
+    
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1"
         android:layout_marginTop="10dp"
         android:background="#BDBDBD" >
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:orientation="vertical" >
 
             <TextView
@@ -102,87 +103,11 @@
         </LinearLayout>
         
     </FrameLayout>
-    
-    <FrameLayout
+
+    <Button
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="#BDBDBD" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
-
-            <TextView
-                android:id="@+id/proximsEsdeveniments"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="10dp"
-                android:text="Pròxims esdeveniments"
-                android:textSize="15dp" />
-
-            <TextView
-                android:id="@+id/esdeveniment1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 1"
-                android:textColor="#2E64FE"
-                android:textSize="15sp" />
-            
-            <TextView
-                android:id="@+id/esdeveniment2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 2"
-                android:textColor="#2E64FE"
-                android:textSize="15sp" />
-            
-            <TextView
-                android:id="@+id/esdeveniment3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 3"
-                android:textColor="#2E64FE"
-                android:textSize="15sp" />
-            
-            <TextView
-                android:id="@+id/esdeveniment4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 4"
-                android:textColor="#2E64FE"
-                android:textSize="15sp" />
-            
-            <TextView
-                android:id="@+id/esdeveniment5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                android:text="Esdeveniment 5"
-                android:textColor="#2E64FE"
-                android:textSize="15sp" />
-
-        </LinearLayout>
-        
-    </FrameLayout>
+        android:text="Envia missatge" />
     
-    </LinearLayout>
-
-
-</RelativeLayout>
+    </LinearLayout></RelativeLayout>
