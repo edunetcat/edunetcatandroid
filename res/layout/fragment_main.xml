@@ -12,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
+        
+
     
     <TextView
         android:id="@+id/resumActivitat"
@@ -23,6 +25,13 @@
         android:text="Panell alumnes"
         android:textColor="@android:color/darker_gray"
         android:textSize="20sp" />
+    
+    	<TextView
+        android:id="@+id/benvinguda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola,"
+        />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -51,7 +60,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Missatge 1"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -62,7 +71,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Missatge 2"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -73,7 +82,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Missatge 3"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -84,7 +93,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Missatge 4"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -95,7 +104,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:text="Missatge 5"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
 
@@ -130,7 +139,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 1"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -141,7 +150,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 2"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -152,7 +161,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 3"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -163,7 +172,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Esdeveniment 4"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
             
@@ -174,7 +183,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:text="Esdeveniment 5"
+                android:text="-"
                 android:textColor="#2E64FE"
                 android:textSize="15sp" />
 
