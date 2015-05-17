@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuari" />
+
+    <EditText
+        android:id="@+id/usuari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrasenya" />
+
+    <EditText
+        android:id="@+id/contrasenya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="10" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entra" />
+
+</LinearLayout>
